@@ -1,4 +1,4 @@
-# Predicting Client Term Deposit Subscription Using Marketing Campaign Information, Demographic Profiles, and Financial Situation
+# Predicting Client Term Deposit Subscription Using Demographic Profiles, and Financial Situation
 This project aims to predict whether clients will subscribe to a term deposit based on data from direct marketing campaigns conducted by a Portuguese banking institution. The model leverages demographic, financial, and campaign-related information to identify clients most likely to respond positively, enhancing targeted marketing efforts.
 
 ## Project Overview
