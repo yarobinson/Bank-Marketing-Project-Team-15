@@ -32,4 +32,14 @@ Outliers in numerical variables were identified using the Isolation Forest algor
 
 - **Outlier Prediction**: Predictions were made to identify outliers, which were then removed from the dataset, resulting in a final cleaned dataset.
 
+### 4. Convert categorical variables to numerical
+Converting categorical variables to numerical values ensures compatibility with machine learning algorithms, improves model performance, enhances interpretability, and facilitates more efficient data storage and processing. 
+
+- **One-Hot Encoded**: This Encoding method fits becasue the data set showing small to medium cardinality and has nominal categorical variables where categories do not have a meaningful order.
+
+### 5. Scale the variables
+Scaling variables ensures that all features are on a comparable scale, improving model performance, reducing bias, enhancing interpretability, and maintaining numerical stability.
+
+- **StandardScaler**: Using StandardScaler ensures that the numerical features in the DataFrame are standardized to a common scale. This normalization can significantly enhance model performanceand and ensure that features with different units do not bias the model. It will also give better support for algorithms like k-nearest neighbors (KNN), k-means clustering which rely on distance metrics, scaled features ensure that no single feature dominates the distance calculations.
+
 To be continued....
