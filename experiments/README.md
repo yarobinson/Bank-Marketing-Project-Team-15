@@ -42,4 +42,8 @@ Scaling variables ensures that all features are on a comparable scale, improving
 
 - **StandardScaler**: Using StandardScaler ensures that the numerical features in the DataFrame are standardized to a common scale. This normalization can significantly enhance model performanceand and ensure that features with different units do not bias the model. It will also give better support for algorithms like k-nearest neighbors (KNN), k-means clustering which rely on distance metrics, scaled features ensure that no single feature dominates the distance calculations.
 
+### 6. *Univariate Analysis*
+Univariate analysis provides insights into the distribution and characteristics of individual features, highlighting trends, patterns, and relationships with the target variable. By analyzing continuous and categorical variables, it helps identify outliers, skewness, and imbalances, which can impact model performance. This analysis is crucial for understanding the data structure and selecting relevant features, ensuring informed decisions for further modeling and improving overall model effectiveness.
+
+
 To be continued....
