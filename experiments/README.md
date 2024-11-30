@@ -45,5 +45,23 @@ Scaling variables ensures that all features are on a comparable scale, improving
 ### 6. *Univariate Analysis*
 Univariate analysis provides insights into the distribution and characteristics of individual features, highlighting trends, patterns, and relationships with the target variable. By analyzing continuous and categorical variables, it helps identify outliers, skewness, and imbalances, which can impact model performance. This analysis is crucial for understanding the data structure and selecting relevant features, ensuring informed decisions for further modeling and improving overall model effectiveness.
 
+- Age: The age distribution is slightly right-skewed, with most clients between 20-60 years old, peaking in the early 30s. This suggests that individuals in their 30s are more likely to subscribe to term deposits, indicating they are at a financially stable point in life and more interested in planning for future savings.
+
+- Balance: The balance distribution is also right-skewed, with the majority of clients having lower balances (peaking around 1000), while a small group holds significantly higher balances. This implies that most clients have modest savings, but a minority possess substantially larger amounts, which could reflect a more affluent client segment.
+
+- Duration: The right-skewed distribution of conversation durations indicates that most client interactions last between 0-300 seconds. Notably, the frequency of contacts lasting 151-300 seconds matches the frequency of shorter 0-150 seconds contacts, suggesting that clients are engaging in relatively longer conversations (2-3 minutes). This is a positive sign for potential sales as it reflects a higher level of customer interest and willingness to communicate.
+
+- Campaign: The number of contacts in the current campaign shows a right-skewed distribution, with the majority of clients being contacted only once or twice. There's a sharp drop-off as the number of contacts increases, indicating that most clients do not require multiple follow-ups, suggesting that initial contact is often sufficient to generate interest or responses.
+
+- Pdays: The days since the last contact follow a right-skewed distribution, indicating that most clients have relatively short intervals (within a month) between contacts. This suggests that clients are engaged with the campaign on a relatively frequent basis, while a smaller group experiences longer gaps, which might imply less engagement or more irregular outreach.
+
+- Previous: The number of previous contacts also exhibits a right-skewed distribution, with the majority of clients having zero or only a few prior interactions before the current campaign. This indicates that most clients are relatively new to the campaign or have only had a limited number of previous contacts, suggesting that ongoing engagement and follow-up efforts may still be in the early stages for many clients.
+
+- Housing Status: The majority of clients have a housing loan, suggesting that owning a home is common among this group. This could indicate financial stability or a tendency to invest in property.
+
+- Loan Status: A large portion of clients do not have a personal loan, which may indicate that they are either debt-averse or able to manage their finances without relying on additional borrowing.
+
+- Subscribed (Term Deposit): The low subscription rate for term deposits suggests that most clients are either not interested in long-term savings products or are not yet financially ready to commit to such investments.
+
 
 To be continued....
