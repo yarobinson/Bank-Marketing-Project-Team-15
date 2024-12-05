@@ -115,8 +115,6 @@ This project involves collaboration among team members, each focusing on specifi
 | **Team**    | **Model Evaluation:** <br> If the model performs well, we can conclude the project. If not, we will explore other machine learning models. |
 
 
-......
-
 
 
 
