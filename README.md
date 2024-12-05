@@ -140,7 +140,7 @@ Adjust strategies to focus on impactful periods (e.g., campaigns in May) and imp
 ## **Key Feature Insights**
 Below is the SHAP feature importance plot, showing the most influential factors in predicting client subscriptions:
 
-![alt text](image.png)
+![SHAP Feature Importance](reports/Feature_importance.png)
 
 ### Observations:
 - **Duration**: Longer call durations strongly correlate with higher subscription likelihood.  
