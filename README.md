@@ -137,6 +137,13 @@ Use insights from feature importance (e.g., call duration, account balance) to p
 ### 3. **Enhance Campaign Effectiveness**
 Adjust strategies to focus on impactful periods (e.g., campaigns in May) and improve engagement tactics during calls (e.g., extending call duration).
 
+
+---
+
+# Data Quality
+
+## Data Preprocessing
+
 ### Goal
 The preprocessing step focused on preparing the raw dataset for further analysis by:
 - Removing irrelevant columns with high levels of "unknown" values.
@@ -153,9 +160,6 @@ Example insights:
 - **Average Balance**: €1362, with significant variability.
 - **Potential Outliers**: Extreme values in `balance`, `duration`, and `campaign`.
 
----
-
-# Data Quality
 
 ## Data Cleanup
 
