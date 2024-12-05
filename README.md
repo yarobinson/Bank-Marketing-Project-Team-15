@@ -115,3 +115,35 @@ This project involves collaboration among team members, each focusing on specifi
 | **Team**    | **Model Evaluation:** <br> If the model performs well, we can conclude the project. If not, we will explore other machine learning models. |
 
 
+......
+
+
+
+
+
+# Experiment Overview and Business Decision-Making Goal
+
+This experiment aimed to develop a machine learning classifier to predict whether clients would subscribe to a term deposit based on historical marketing and client data. Two models were tested—**KNN** and **XGBoost**—with XGBoost showing superior performance, particularly in recall (90%), making it highly effective for identifying potential subscribers.
+
+## **Business Goal**  
+The ultimate objective of this analysis is **to optimize marketing campaigns by accurately targeting clients most likely to subscribe**. By leveraging a high-recall model, the business can:
+
+### 1. **Maximize Client Outreach**
+Ensure that nearly all potential subscribers are identified and contacted, increasing the likelihood of campaign success.
+
+### 2. **Resource Allocation**
+Use insights from feature importance (e.g., call duration, account balance) to prioritize high-value clients, reducing wasted effort on unlikely subscribers.
+
+### 3. **Enhance Campaign Effectiveness**
+Adjust strategies to focus on impactful periods (e.g., campaigns in May) and improve engagement tactics during calls (e.g., extending call duration).
+
+## **Decision-Making Impact**
+This model empowers data-driven decisions to:
+- Increase the **return on investment (ROI)** for marketing campaigns.  
+- Focus resources on **high-potential leads**, minimizing costs associated with false positives.  
+- Continuously refine strategies using actionable insights from the data (e.g., targeting clients without housing loans or with higher balances).  
+
+By integrating this model into the marketing pipeline, the business can effectively:
+- Increase subscription rates.  
+- Enhance client satisfaction.  
+- Improve overall campaign efficiency.
