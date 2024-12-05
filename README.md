@@ -137,6 +137,17 @@ Use insights from feature importance (e.g., call duration, account balance) to p
 ### 3. **Enhance Campaign Effectiveness**
 Adjust strategies to focus on impactful periods (e.g., campaigns in May) and improve engagement tactics during calls (e.g., extending call duration).
 
+## **Key Feature Insights**
+Below is the SHAP feature importance plot, showing the most influential factors in predicting client subscriptions:
+
+![alt text](image.png)
+
+### Observations:
+- **Duration**: Longer call durations strongly correlate with higher subscription likelihood.  
+- **Month (May)**: Campaigns conducted in May tend to have higher success rates.  
+- **Balance**: Clients with higher balances are more likely to subscribe.  
+- **Housing Loans**: Clients without housing loans are more likely to respond positively.
+
 ## **Decision-Making Impact**
 This model empowers data-driven decisions to:
 - Increase the **return on investment (ROI)** for marketing campaigns.  
@@ -147,3 +158,4 @@ By integrating this model into the marketing pipeline, the business can effectiv
 - Increase subscription rates.  
 - Enhance client satisfaction.  
 - Improve overall campaign efficiency.
+
