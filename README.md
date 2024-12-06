@@ -219,6 +219,21 @@ Scaling variables ensures that all features are on a comparable scale, improving
 ### Methodology
 **StandardScaler**: Using StandardScaler ensures that the numerical features in the DataFrame are standardized to a common scale. This normalization can significantly enhance model performanceand and ensure that features with different units do not bias the model. It will also give better support for algorithms like k-nearest neighbors (KNN), k-means clustering which rely on distance metrics, scaled features ensure that no single feature dominates the distance calculations.
 
+## Univariate Analysis 
+
+### Goal
+To understand the distribution and characteristics of key features and their relationship to the target variable (term deposit subscription), providing insights for feature selection.
+
+### Methodology
+**Histograms**: Used histograms to examine the distribution of continuous variables (e.g., age, balance, call duration) to uncover patterns and skewness. This method is crucial in machine learning preprocessing, as understanding the distribution of data helps with feature engineering and selecting appropriate models, especially for algorithms sensitive to data distribution (e.g., decision trees, logistic regression).
+
+**Boxplots**: Applied boxplots to detect outliers and visualize feature spread. Identifying outliers is essential for improving model performance, as extreme values can distort predictions, particularly in distance-based models like K-Nearest Neighbors (KNN) or Support Vector Machines (SVM).
+
+### Key Observations
+- **Call Duration**: Longer call durations are highly correlated with higher subscription rates, indicating deeper client engagement is key.
+- **Balance**: Clients with higher balances show a significantly higher likelihood of subscribing, suggesting financial stability is a strong predictor.
+- **Campaign Contacts**: Most successful subscriptions happen after the first contact, with diminishing returns for follow-up calls, highlighting the importance of effective initial outreach.
+
 ---
 
 ## **Key Feature Insights**
