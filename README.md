@@ -105,14 +105,13 @@ This project uses a dataset from a Portuguese bank’s direct marketing campaign
 
 This project involves collaboration among team members, each focusing on specific tasks to ensure successful execution. Below is a breakdown of responsibilities:
 
-| Team Member | Responsibilities                                                                                       |
-|-------------|--------------------------------------------------------------------------------------------------------|
-| **Jakub**   | **Outlier Detection and Handling:** <br> Identify and manage outliers in the dataset to ensure data quality. <br> **Organization & Project Management:** <br> Manage group deliverables, set norms, and lead stand-ups . |
-| **Lareina** | **Data Type Conversion:** <br> Convert categorical variables to numerical codes for analysis. <br> **Standardization of Variables:** <br> Scale the variables to ensure uniformity across features. |
-| **Yihan**   | **Univariate Analysis:** <br> Create histograms, box plots, and bar charts to visualize individual variables. |
-| **Yasmine** | **Multivariate Analysis:** <br> Explore interactions between variables through correlation, trend analysis, and visualization. <br> **Feature Selection:** <br> Select relevant features that will be used to predict the target variable. |
-| **Amina**   | **Data Splitting:** <br> Split the dataset into training and testing sets for model evaluation. <br> **Model Evaluation :** <br> Implement the KNN algorithm and assess its performance. If the accuracy is high, create the confusion matrix to calculate precision and recall. |
-| **Team**    | **Model Evaluation:** <br> If the model performs well, we can conclude the project. If not, we will explore other machine learning models. |
+| Team Member | Responsibilities                                                                                       | Video Link                           |
+|-------------|--------------------------------------------------------------------------------------------------------|--------------------------------------|
+| **Jakub**   | **Outlier Detection and Handling:** <br> Identify and manage outliers in the dataset to ensure data quality. <br> **Organization & Project Management:** <br> Manage group deliverables, set norms, and lead stand-ups. | [Watch Video](#jakub-video)          |
+| **Lareina** | **Data Type Conversion:** <br> Convert categorical variables to numerical codes for analysis. <br> **Standardization of Variables:** <br> Scale the variables to ensure uniformity across features. | [Watch Video](#lareina-video)       |
+| **Yihan**   | **Univariate Analysis:** <br> Create histograms, box plots, and bar charts to visualize individual variables. | [Watch Video](#yihan-video)         |
+| **Yasmine** | **Multivariate Analysis:** <br> Explore interactions between variables through correlation, trend analysis, and visualization. <br> **Feature Selection:** <br> Select relevant features that will be used to predict the target variable. | [Watch Video](#yasmine-video)       |
+| **Amina**   | **Data Splitting:** <br> Split the dataset into training and testing sets for model evaluation. <br> **Model Evaluation:** <br> Implement the KNN algorithm and another model, create the confusion matrix to calculate precision and recall. | [Watch Video](https://youtu.be/5QmS_MCIUdE)         |
 
 
 
@@ -168,13 +167,6 @@ The cleanup process ensured the dataset was free from "unknown" or irrelevant va
 1. Removed rows or columns based on thresholds for missing or "unknown" values.
 2. Saved the cleaned dataset for further use.
 
-### Code
-```python
-columns_to_clean = ['job', 'education']
-for column in columns_to_clean:
-    if column in df.columns and df[column].dtype == 'object':
-        df = df[df[column] != 'unknown']
-```
 ### Outcome
  - Cleaned dataset with significant reductions in missing values.
  - Removed irrelevant columns, such as poutcome and contact.
@@ -188,14 +180,6 @@ Used **Isolation Forest**, an unsupervised machine learning algorithm, to detect
 1. Identified numerical columns for outlier detection.
 2. Fitted the Isolation Forest model with a contamination rate of 5%.
 3. Removed data points identified as outliers.
-
-### Code
-```python
-from sklearn.ensemble import IsolationForest
-model = IsolationForest(contamination=0.05, random_state=42)
-df_clean['outlier'] = model.predict(df_clean.select_dtypes(include=[np.number]))
-df_cleaned = df_clean[df_clean['outlier'] == False]
-```
 
 ### Outcome
 - Dataset reduced to 41,186 rows after removing outliers.
