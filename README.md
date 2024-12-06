@@ -201,6 +201,24 @@ df_cleaned = df_clean[df_clean['outlier'] == False]
 - Dataset reduced to 41,186 rows after removing outliers.
 - Improved dataset reliability for subsequent analysis.
 
+
+## Convert categorical variables to numerical
+
+### Goal
+Converting categorical variables to numerical values ensures compatibility with machine learning algorithms, improves model performance, enhances interpretability, and facilitates more efficient data storage and processing. 
+
+### Methodology
+**One-Hot Encoded**: This Encoding method fits becasue the data set showing small to medium cardinality and has nominal categorical variables where categories do not have a meaningful order.
+
+
+## Scale the variables
+
+### Goal
+Scaling variables ensures that all features are on a comparable scale, improving model performance, reducing bias, enhancing interpretability, and maintaining numerical stability.
+
+### Methodology
+**StandardScaler**: Using StandardScaler ensures that the numerical features in the DataFrame are standardized to a common scale. This normalization can significantly enhance model performanceand and ensure that features with different units do not bias the model. It will also give better support for algorithms like k-nearest neighbors (KNN), k-means clustering which rely on distance metrics, scaled features ensure that no single feature dominates the distance calculations.
+
 ---
 
 ## **Key Feature Insights**
