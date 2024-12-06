@@ -107,7 +107,7 @@ This project involves collaboration among team members, each focusing on specifi
 
 | Team Member | Responsibilities                                                                                       | Video Link                           |
 |-------------|--------------------------------------------------------------------------------------------------------|--------------------------------------|
-| **Jakub**   | **Outlier Detection and Handling:** <br> Identify and manage outliers in the dataset to ensure data quality. <br> **Organization & Project Management:** <br> Manage group deliverables, set norms, and lead stand-ups. | [Watch Video](#jakub-video)          |
+| **Jakub**   | **Outlier Detection and Handling:** <br> Identify and manage outliers in the dataset to ensure data quality. <br> **Organization & Project Management:** <br> Manage group deliverables, set norms, and lead stand-ups. | [Watch Video](https://shorturl.at/g7uxc)          |
 | **Lareina** | **Data Type Conversion:** <br> Convert categorical variables to numerical codes for analysis. <br> **Standardization of Variables:** <br> Scale the variables to ensure uniformity across features. | [Watch Video](#lareina-video)       |
 | **Yihan**   | **Univariate Analysis:** <br> Create histograms, box plots, and bar charts to visualize individual variables. | [Watch Video](#yihan-video)         |
 | **Yasmine** | **Multivariate Analysis:** <br> Explore interactions between variables through correlation, trend analysis, and visualization. <br> **Feature Selection:** <br> Select relevant features that will be used to predict the target variable. | [Watch Video](#yasmine-video)       |
