@@ -218,6 +218,25 @@ To understand the distribution and characteristics of key features and their rel
 - **Balance**: Clients with higher balances show a significantly higher likelihood of subscribing, suggesting financial stability is a strong predictor.
 - **Campaign Contacts**: Most successful subscriptions happen after the first contact, with diminishing returns for follow-up calls, highlighting the importance of effective initial outreach.
 
+
+## Bivariate and Multivariate Analysis
+
+### Goal
+Analyze the relationships between two or more variables to determinethe association and strength of association of variables through coorelation and visualizations, providing insights for feature selection. 
+
+### Methodology
+**Correlation Matrix**: Created a correlation matrix to determine which variables had a significant relationship with eachother. This method was important to identify variables with strong association for analysis. 
+
+**Bar Charts**: Used bar charts for bivariate analysis to visualize the relationship between two variables. This method was important when analyzing variables for comparison over time or by volume to determine which combination of variables had the strongest association. 
+
+**Scatter Plots**: Used scatter plots for multivariate analysis to visualize the relationship between two or more variables. This method was important for showcasing the relationship between two variables over time to identify patterns within the data. 
+
+### Key Observations
+- **Job Types**: Positive coorelation between certain job types and term deposit subscription. Through visualization, students, retirees and those who are unemployed were shown as most likely to subscribe to term deposits. 
+- **Marital Status**: Positive coorelation between being single and term deposit subscription. Through visualization, single clients were shown as more likely to subscribe to term deposits than married or divorced clients.  
+- **Balance, Age and Subscription Rate**: Clients between the ages of 20-70 with a balance of 0 to 10,000 were most likely to subscribe to term deposits. 
+- **Summary**: From the insights, we can suggest that these categories of clients are more likely to take on the risk of term deposits and future marketing campaigns targeted towards these groups may be successful in increasing subscription rates. 
+
 ---
 
 ## **Key Feature Insights**
